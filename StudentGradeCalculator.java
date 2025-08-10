@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class StudentGradeCalculator {
     public static void main(String[] args) {
-        // Variable initialization
+        
         int numSubjects = 0;
         int[] marks = null;
         int total = 0;
@@ -11,7 +11,7 @@ public class StudentGradeCalculator {
 
         Scanner scanner = new Scanner(System.in);
 
-        // Friendly welcome message
+        
         System.out.println("Welcome to the Student Grade Calculator!");
 
         // Input: number of subjects
@@ -57,3 +57,4 @@ public class StudentGradeCalculator {
         System.out.println("Thank you for using the Student Grade Calculator. Good luck in your studies!");
     }
 }
+
